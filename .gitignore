@@ -27,4 +27,11 @@ yarn-error.log*
 .idea
 .vscode
 *.swp
-*.swo 
+*.swo
+
+# Não ignorar o diretório client
+!client/
+!client/src/
+!client/public/
+!client/package.json
+!client/package-lock.json 
