@@ -46,6 +46,8 @@ import {
 } from '@mui/icons-material';
 import { useNavigate, useLocation } from 'react-router-dom';
 import simulados from '../data/simulados.json';
+import { useTheme } from '@mui/material/styles';
+import { useThemeContext } from '../context/ThemeContext';
 
 const simuladosCloudPractitioner = [
   { id: 1, nome: 'Simulado 1', habilitado: true },
@@ -348,6 +350,9 @@ const Simulado = () => {
   const searchParams = new URLSearchParams(location.search);
   const prova = searchParams.get('prova');
   const simuladoKey = searchParams.get('simulado');
+
+  const theme = useTheme();
+  const { mode } = useThemeContext();
 
   // Estados do timer
   const [tempoRestante, setTempoRestante] = useState(null);
@@ -681,8 +686,13 @@ const Simulado = () => {
 
   if (resultado) {
     return (
-      <Container maxWidth="md" sx={{ mt: 4 }}>
-        <Paper elevation={3} sx={{ p: 4 }}>
+      <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
+        <Box sx={{ 
+          bgcolor: theme.palette.background.paper,
+          p: 3,
+          borderRadius: 2,
+          boxShadow: 3
+        }}>
           <Typography variant="h4" gutterBottom>
             Resultado do Simulado
           </Typography>
@@ -846,7 +856,7 @@ const Simulado = () => {
               Voltar à Seleção
             </Button>
           </Box>
-        </Paper>
+        </Box>
 
         <Dialog
           open={modalAberto}

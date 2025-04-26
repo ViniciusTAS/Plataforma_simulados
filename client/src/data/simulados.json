@@ -535,11 +535,11 @@
       "respostaCorreta": [1, 4],
       "explicacao": "Reliability e Operational Excellence são dois dos cinco pilares do AWS Well-Architected Framework.",
       "explicacoesOpcoes": {
-        "0": "Availability é um componente do pilar Reliability, não um pilar separado.",
-        "1": "Reliability é um dos cinco pilares do Well-Architected Framework.",
-        "2": "Scalability é uma característica, não um pilar do framework.",
-        "3": "Responsive Design não é um pilar do Well-Architected Framework.",
-        "4": "Operational Excellence é um dos cinco pilares do Well-Architected Framework."
+        "0": "Availability (Disponibilidade) é um componente do pilar Reliability, não um pilar separado.",
+        "1": "Reliability (Confiabilidade) é um dos cinco pilares do AWS Well-Architected Framework.",
+        "2": "Scalability (Escalabilidade) é uma característica, não um pilar do framework.",
+        "3": "Responsive Design (Design Responsivo) não é um pilar do AWS Well-Architected Framework.",
+        "4": "Operational Excellence (Excelência Operacional) é um dos cinco pilares do AWS Well-Architected Framework."
       }
     }
   ],
@@ -1087,11 +1087,11 @@
       "respostaCorreta": [1, 4],
       "explicacao": "Reliability e Operational Excellence são dois dos cinco pilares do AWS Well-Architected Framework.",
       "explicacoesOpcoes": {
-        "0": "Availability é um componente do pilar Reliability, não um pilar separado.",
-        "1": "Reliability é um dos cinco pilares do Well-Architected Framework.",
-        "2": "Scalability é uma característica, não um pilar do framework.",
-        "3": "Responsive Design não é um pilar do Well-Architected Framework.",
-        "4": "Operational Excellence é um dos cinco pilares do Well-Architected Framework."
+        "0": "Availability (Disponibilidade) é um componente do pilar Reliability, não um pilar separado.",
+        "1": "Reliability (Confiabilidade) é um dos cinco pilares do AWS Well-Architected Framework.",
+        "2": "Scalability (Escalabilidade) é uma característica, não um pilar do framework.",
+        "3": "Responsive Design (Design Responsivo) não é um pilar do AWS Well-Architected Framework.",
+        "4": "Operational Excellence (Excelência Operacional) é um dos cinco pilares do AWS Well-Architected Framework."
       }
     }
   ]
