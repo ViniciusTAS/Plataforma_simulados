@@ -1,86 +1,64 @@
-# Simulados de Certificações AWS
+# Simulados AWS Cloud Practitioner
 
-Aplicação web para simulação de provas de certificação AWS, com foco na certificação Cloud Practitioner.
+Uma aplicação web para praticar questões da certificação AWS Cloud Practitioner, com dois modos de estudo:
 
-## Funcionalidades
+- **Modo Estudo**: Permite revisar cada questão com explicações detalhadas
+- **Modo Exame**: Simula o ambiente real da prova com tempo controlado
 
-- Simulados em modo estudo e exame
-- Timer para controle de tempo
-- Feedback imediato no modo estudo
-- Explicações detalhadas das questões
-- Interface moderna e responsiva
+## 🚀 Funcionalidades
 
-## Tecnologias Utilizadas
+- ✅ Questões atualizadas da certificação AWS Cloud Practitioner
+- 📚 Modo estudo com explicações detalhadas para cada alternativa
+- ⏱️ Modo exame que simula o ambiente real da prova
+- 🎯 Feedback imediato das respostas
+- 📊 Relatório de desempenho ao final do simulado
+- 💻 Interface moderna e responsiva
 
-- React
+## 🛠️ Tecnologias Utilizadas
+
+- React.js
 - Material-UI
 - React Router
-- Vercel (deploy)
+- Node.js
 
-## Como Fazer o Deploy
+## 📦 Pré-requisitos
 
-### Pré-requisitos
+Antes de começar, você precisará ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [Git](https://git-scm.com/) para clonar o repositório
+- Um editor de código (recomendamos [VS Code](https://code.visualstudio.com/))
 
-- Node.js (versão 14 ou superior)
-- Conta no Vercel
-- Git
-
-### Passos para Deploy
+## 🔧 Instalação
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
-cd [NOME_DO_PROJETO]
+git clone https://github.com/[seu-usuario]/simulados-aws.git
+cd simulados-aws
 ```
 
-2. Instale as dependências:
+2. Instale as dependências do projeto:
 ```bash
 cd client
 npm install
 ```
 
-3. Faça o build da aplicação:
+## 🚀 Executando a Aplicação
+
+1. Inicie o servidor de desenvolvimento:
 ```bash
-npm run build
-```
-
-4. Faça o deploy no Vercel:
-   - Acesse [vercel.com](https://vercel.com)
-   - Importe o projeto
-   - Configure as variáveis de ambiente (se necessário)
-   - Clique em "Deploy"
-
-### Configurações do Vercel
-
-- Framework Preset: Create React App
-- Build Command: `cd client && npm run build`
-- Output Directory: `client/build`
-- Install Command: `cd client && npm install`
-
-## Ambiente de Desenvolvimento
-
-Para rodar localmente:
-
-```bash
-cd client
-npm install
 npm start
 ```
 
-A aplicação estará disponível em `http://localhost:3000`
+2. Acesse a aplicação:
+- Abra seu navegador
+- Acesse `http://localhost:3000`
 
-## Estrutura do Projeto
+A aplicação será aberta automaticamente no seu navegador padrão.
 
-```
-/
-├── client/                 # Frontend React
-│   ├── public/            # Arquivos estáticos
-│   ├── src/               # Código fonte
-│   │   ├── components/    # Componentes React
-│   │   ├── pages/        # Páginas da aplicação
-│   │   ├── data/         # Dados estáticos
-│   │   └── App.js        # Componente principal
-│   └── package.json      # Dependências e scripts
-├── vercel.json           # Configuração do Vercel
-└── README.md            # Este arquivo
-``` 
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## ⭐ Apoie o Projeto
+
+Se este projeto te ajudou, por favor considere dar uma estrela no GitHub! 

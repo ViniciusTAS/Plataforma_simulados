@@ -2,10 +2,10 @@
   "name": "simulados-certificacoes-server",
   "version": "1.0.0",
   "description": "Backend do sistema de simulados para certificações",
-  "main": "src/index.js",
+  "main": "servertt/src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node servertt/src/index.js",
+    "dev": "nodemon servertt/src/index.js",
     "test": "jest",
     "vercel-build": "cd client && npm install && npm run build"
   },
