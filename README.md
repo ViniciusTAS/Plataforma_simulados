@@ -32,7 +32,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/[seu-usuario]/simulados-aws.git
+git clone https://github.com/ViniciusTAS/simulados-aws.git
 cd simulados-aws
 ```
 
@@ -61,4 +61,18 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## ⭐ Apoie o Projeto
 
-Se este projeto te ajudou, por favor considere dar uma estrela no GitHub! 
+Se este projeto te ajudou, por favor considere dar uma estrela no GitHub!
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Se você quiser contribuir com o projeto:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Faça commit das suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Faça push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📧 Contato
+
+Vinicius Nunes - [GitHub](https://github.com/ViniciusTAS) 

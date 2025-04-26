@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "Simulados para certificação AWS Cloud Practitioner com modo estudo e exame",
-  "author": "Seu Nome",
+  "author": "Vinicius Nunes",
   "license": "MIT",
   "dependencies": {
     "@mui/material": "^5.14.20",
     "@mui/icons-material": "^5.14.20",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.1",
-    "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
@@ -50,10 +49,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/[seu-usuario]/simulados-aws.git"
+    "url": "https://github.com/ViniciusTAS/simulados-aws.git"
   },
   "bugs": {
-    "url": "https://github.com/[seu-usuario]/simulados-aws/issues"
+    "url": "https://github.com/ViniciusTAS/simulados-aws/issues"
   },
   "keywords": [
     "aws",
